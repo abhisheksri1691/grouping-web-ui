@@ -7,7 +7,7 @@ export default function MyFooter() {
    
     <hr className="my-8 border-gray-400 sm:mx-auto dark:border-blue-600 lg:my-16" />
     <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://agswebsolution.com/" className="hover:underline">AgsWebSolution</a>. All Rights Reserved.
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://www.groupingweb.com/" className="hover:underline">GroupingWeb</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
