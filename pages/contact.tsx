@@ -1,7 +1,5 @@
 
-import React, { useState } from "react";
 import axios from 'axios';
-import Link from 'next/link'
 
 export default function contact() {
 
@@ -31,7 +29,6 @@ export default function contact() {
         // const JSONdata = JSON.stringify(data)
         // console.log(JSONdata);
     };
-    const [show, setShow] = useState(false);
 
     return (
        <div className="h-screen bg-gradient-to-r from-slate-300 to-teal-300">
@@ -61,7 +58,7 @@ export default function contact() {
                     <div>
                         <div className="w-full flex flex-col mt-8">
                             <label className="text-base font-semibold leading-none text-gray-800">Message</label>
-                            <textarea tabIndex={0} aria-label="leave a message" role="textbox" type="name" className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 resize-none" defaultValue={""} />
+                            <textarea tabIndex={0} aria-label="leave a message" role="textbox" className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-indigo-700 mt-4 bg-gray-100 border rounded border-gray-200 placeholder-gray-100 resize-none" defaultValue={""} />
                         </div>
                     </div>
                     <p className="text-xs leading-3 text-gray-600 mt-4">By clicking submit you agree to our terms of service, privacy policy and how we use data as stated</p>
