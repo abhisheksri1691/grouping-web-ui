@@ -17,14 +17,13 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import MyFooter from './MyFooter'
 import Link from 'next/link'
 
 const services = [
   {
     name: 'Web Developemnt',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '/webdev',
     icon: ChartBarIcon,
   },
   {
@@ -95,7 +94,7 @@ export default function Header() {
   <header  className="sticky top-0 z-50">
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6" >
-        <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex  border-b-2 border-gray-100 py-6 lg:justify-start lg:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className='font-bold text-lg xl:hover:text-blue-700 xl:text-2xl'>
              GroupingWeb
@@ -106,12 +105,7 @@ export default function Header() {
               /> */}
             </Link>
           </div>
-          {/* <div className="-my-2 -mr-2 md:hidden">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-              <span className="sr-only">Open menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </Popover.Button>
-          </div> */}
+          
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
             <Popover className="relative">
               {({ open }) => (
@@ -158,19 +152,6 @@ export default function Header() {
                             </a>
                           ))}
                         </div>
-                        {/* <div className="space-y-6 bg-gray-50 px-5 py-5 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                          {callsToAction.map((item) => (
-                            <div key={item.name} className="flow-root">
-                              <a
-                                href={item.href}
-                                className="-m-3 flex items-center rounded-md p-3 text-base font-medium text-gray-900 hover:bg-gray-100"
-                              >
-                                <item.icon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                                <span className="ml-3">{item.name}</span>
-                              </a>
-                            </div>
-                          ))}
-                        </div> */}
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -178,12 +159,19 @@ export default function Header() {
               )}
             </Popover>
 
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="aboutUs" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About Us
-            </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </Link>
+            
+
+            <Link href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Blog
+            </Link>
+            <Link href="contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Contact Us
-            </a>
+            </Link>
+
+            <div className='w-30'></div>
 
             <Popover className="relative">
               {({ open }) => (
@@ -257,7 +245,7 @@ export default function Header() {
               )}
             </Popover>
           </Popover.Group>
-          <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+          {/* <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <Link href="/SignIn" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </Link>
@@ -268,7 +256,7 @@ export default function Header() {
                 
               Sign up
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
