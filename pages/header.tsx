@@ -1,6 +1,6 @@
 
 
-import { Fragment } from 'react'
+import React, { Fragment,MouseEvent,useState } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -18,43 +18,42 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
+import Drawer from "./Drawer";
+
 
 const services = [
   {
     name: 'Web Developemnt',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '/webdev',
+    href: '/web-development',
     icon: ChartBarIcon,
   },
   {
     name: 'Mobile App Developemnt',
     description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: 'mobile-development',
     icon: ChartBarIcon,
   },
   {
     name: 'SEO',
     description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    href: '/seo',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Social Media Marketing', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
-  {
-    name: 'SEO Link Building',
-    description: "Connect with third-party tools that you're already using.",
-    href: '#',
-    icon: Squares2X2Icon,
-  },
+  { name: 'Social Media Marketing', description: "Your customers' data will be safe and secure.", 
+  href: '/digital-marketing', icon: ShieldCheckIcon },
+  // {
+  //   name: 'SEO Link Building',
+  //   description: "Connect with third-party tools that you're already using.",
+  //   href: '#',
+  //   icon: Squares2X2Icon,
+  // },
   {
     name: 'Marketing Analysis',
     description: 'Build strategic funnels that will drive your customers to convert',
-    href: '#',
+    href: '/marketing-analysis',
     icon: ArrowPathIcon,
   },
-]
-const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
 ]
 const resources = [
   {
@@ -83,18 +82,43 @@ const recentPosts = [
   { id: 3, name: 'Improve your customer experience', href: '#' },
 ]
 
+
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
+
+const handleSubmit = (e:MouseEvent<HTMLButtonElement>) => {
+  console.log("toggle button click");
+ 
+  var getQuantity=document.getElementById("mobile")?.style;
+  if (getQuantity != undefined) {
+    if(getQuantity.display =='none')
+    {
+      getQuantity.display = 'block';
+    }
+    else
+    if(getQuantity.display =='block')
+    {
+      getQuantity.display = 'none';
+    }
+    
+  }
+
+}
+
+
+
  
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
   <header  className="sticky top-0 z-50">
     <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-6" >
-        <div className="flex  border-b-2 border-gray-100 py-6 lg:justify-start lg:space-x-10">
+        <div className="flex justify-between  border-b-2 border-gray-100 py-6 lg:justify-between lg:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className='font-bold text-lg xl:hover:text-blue-700 xl:text-2xl'>
              GroupingWeb
@@ -105,6 +129,29 @@ export default function Header() {
               /> */}
             </Link>
           </div>
+          {/* <Mobile menu button */}
+          <button
+        className="md:hidden outline-none"
+        onClick={() => setIsOpen(true)}
+      >
+         <svg className=" w-6 h-6 text-gray-500 hover:text-black "
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+      </button>
+         
+
+<Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+</Drawer>
+
+          
           
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
             <Popover className="relative">
@@ -159,7 +206,7 @@ export default function Header() {
               )}
             </Popover>
 
-            <Link href="aboutUs" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="about-us" className="text-base font-medium text-gray-500 hover:text-gray-900">
               About Us
             </Link>
             

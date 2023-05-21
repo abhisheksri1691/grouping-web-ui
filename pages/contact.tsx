@@ -31,7 +31,7 @@ export default function contact() {
     };
 
     return (
-       <div className="h-screen bg-gradient-to-r from-slate-300 to-teal-300">
+       <div className="lg:h-screen lg:bg-gradient-to-r from-slate-300 to-teal-300">
             <div className=" w-full flex items-center justify-center pt-5">
                 <div className=" bg-white shadow rounded py-12 lg:px-28 px-8">
                     <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700">Let’s chat and get a quote!</p>

@@ -28,14 +28,10 @@ function HeroHome() {
   <div className="px-6 py-4">
     <div className=" font-bold text-xl mb-2">Web Development</div>
     <p className="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+   
+Transform your vision into a stunning reality with our professional web development services. We create responsive, user-friendly websites that captivate your audience and drive business growth. Let us bring your online presence to life and make a lasting impression.  </p>
   </div>
-  <div className="px-6 pt-4 pb-2">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
+  
   </div>
 </div>
 <div className="card-zoom">
@@ -45,45 +41,30 @@ function HeroHome() {
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">Mobile Development</div>
     <p className="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+    Unlock the power of mobile technology with our expert mobile development services. We create intuitive and high-performance mobile apps for iOS and Android platforms, helping businesses engage users and drive growth. Let's bring your ideas to life on the small screen. </p>
   </div>
-  <div className="px-6 pt-4 pb-2">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
+ 
 </div>
 </div>
 <div className="card-zoom">
 <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
   <img className="w-full h-85"  src="/seo.jpg" alt="Sunset in the mountains"/> 
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">SEO</div>
+    <div className="font-bold text-xl mb-2">Search Engine Optimization</div>
     <p className="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+      
+Boost your online visibility and drive organic traffic with our strategic SEO services. We optimize your website, analyze keywords, and implement proven techniques to improve search engine rankings. Get ready to outrank your competition and attract more customers to your site. </p>
   </div>
-  <div className="px-6 pt-4 pb-2">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-  </div>
+  
 </div>
 </div>
 <div className="card-zoom">
 <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
   <img className="w-full h-85"  src="/analytics.jpg" alt="Sunset in the mountains"/> 
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">Data Analytics</div>
+    <div className="font-bold text-xl mb-2">Social Media Optimization</div>
     <p className="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
-  </div>
-  <div className="px-6 pt-4 pb-2">
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    Amplify your brand's presence and engage with your target audience through our strategic SMO (Social Media Optimization) services. We create compelling content, manage social media platforms, and drive meaningful interactions to enhance your brand's visibility and generate valuable leads.   </p>
   </div>
 </div>
 </div>
