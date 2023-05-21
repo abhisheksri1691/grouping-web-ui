@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 function HeroHome() {
 
 
@@ -21,7 +21,8 @@ function HeroHome() {
 
       </div>
       <h1 className="text-center mt-5 text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4 text-sky-900" >Expolre Our <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-slate-800">Services</span></h1>
-<div className=" md:flex space-x-4 mr-6 ml-3">
+ <div className=" md:flex space-x-4 mr-6 ml-3">
+ <Link href="/web-development">
   <div className="card-zoom">
   <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
   <img className="w-full h-85"  src="/webdev.jpg" alt="Sunset in the mountains"/> 
@@ -34,6 +35,8 @@ Transform your vision into a stunning reality with our professional web developm
   
   </div>
 </div>
+</Link>
+<Link href="/mobile-development">
 <div className="card-zoom">
 
 <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
@@ -45,7 +48,10 @@ Transform your vision into a stunning reality with our professional web developm
   </div>
  
 </div>
+
 </div>
+</Link>
+<Link href="/seo">
 <div className="card-zoom">
 <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
   <img className="w-full h-85"  src="/seo.jpg" alt="Sunset in the mountains"/> 
@@ -58,6 +64,8 @@ Boost your online visibility and drive organic traffic with our strategic SEO se
   
 </div>
 </div>
+</Link>
+<Link href="/digital-marketing">
 <div className="card-zoom">
 <div className="max-w-sm rounded overflow-hidden shadow-lg mt-8 ml-6">
   <img className="w-full h-85"  src="/analytics.jpg" alt="Sunset in the mountains"/> 
@@ -68,6 +76,7 @@ Boost your online visibility and drive organic traffic with our strategic SEO se
   </div>
 </div>
 </div>
+</Link>
 </div>
     </section>
   );
