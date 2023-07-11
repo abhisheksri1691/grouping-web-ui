@@ -116,9 +116,9 @@ export default function Header() {
   return (
     <>
   <header  className="sticky top-0 z-50">
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-gradient-to-r from-slate-300 to-teal-300">
       <div className="mx-auto max-w-7xl px-6" >
-        <div className="flex justify-between  border-b-2 border-gray-100 py-6 lg:justify-between lg:space-x-10">
+        <div className="flex justify-between   border-gray-100 py-6 lg:justify-between lg:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/" className='font-bold text-lg xl:hover:text-blue-700 xl:text-2xl'>
              GroupingWeb
@@ -160,7 +160,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md  text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     )}
                   >
                     <span>Services</span>

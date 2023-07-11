@@ -34,10 +34,10 @@ export default function SEO() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">SEO</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">SEO Company in India</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                eget aliquam. Quisque id at vitae feugiat egestas.
+              We've been around for a while as a reliable SEO Agency in India. We can help with search engine optimization everywhere in the world. Increase your return on investment, 
+              get first-page results on Google, Bing, Yahoo, Baidu, and other search engines, and attract more clients with our help.
               </p>
             </div>
           </div>
@@ -52,47 +52,65 @@ export default function SEO() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
-              </p>
+              
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Global SEO</strong> We help companies in increasing their ranks in the target country or globally by combining innovative SEO strategies, innovative marketing methods, and high-quality inbound content.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">National SEO</strong> With the help of our competent SEO team, you may swiftly get to the top of the national market. We are committed to improving your organization's online presence.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Local SEO.</strong> With our help, your business will be at the top of users' local search results. In the realm of digital marketing, local search engine optimization (SEO) services help.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Multilingual SEO</strong> Through multilingual SEO, we help businesses accomplish their marketing plans. 
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Small Business SEO</strong> We can help your small business get the consumer data and engagement metrics that will help it grow. We optimize your small business's website so more people can find it.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Enterprise SEO</strong> Increase the number of people that stumble onto your business online, the calibre of the visitors you receive, and the money you make. 
+                  </span>
+                </li>
+
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">E-commerce SEO</strong> We collaborate with you to boost the visibility of your online store in search engines. 
+                  </span>
+                </li>
+
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Mobile App SEO</strong> Our mobile app SEO services can help your app get more downloads from Google Play.
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+             
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Improve Revenue and Traffic with India's Best SEO Company</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+              Want to hire Indian SEO company? If so, you came to the correct location. We are India's leading SEO company, helping our clients grow their companies and improve their search engine results. Our SEO methods improve rankings and clickthrough rates. We employ cutting-edge SEO tactics to boost your website's position in the SERPs and draw on our team's collective knowledge of more than a decade in the field. In addition to doing research, we optimize on-page elements, create content, and generate links. We can boost your site's exposure, organic traffic, and overall success rate. 
+We want to be the top SEO firm in India by prioritizing these three principles: quality, openness, and outcomes. Contact us immediately to discover how our services can increase your website's visibility and lead generation.
+
               </p>
             </div>
           </div>
